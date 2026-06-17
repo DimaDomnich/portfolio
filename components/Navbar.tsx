@@ -48,9 +48,8 @@ export default function Navbar({
       <div id="scroll-progress" style={{ width: `${progress}%` }} />
 
       <header
-        className="fixed top-0 right-0 z-40 transition-all duration-300"
+        className="fixed top-0 left-0 lg:left-[280px] right-0 z-40 transition-all duration-300"
         style={{
-          left: "var(--sidebar-width)",
           backgroundColor: scrolled ? "rgba(10,14,26,0.85)" : "transparent",
           backdropFilter: scrolled ? "blur(12px)" : "none",
           borderBottom: scrolled
@@ -61,7 +60,7 @@ export default function Navbar({
         <div className="flex items-center justify-between px-6 h-14">
           {/* Mobile: brand name */}
           <span
-            className="lg:hidden font-bold text-sm mono"
+            className="lg:hidden font-bold text-sm mono whitespace-nowrap"
             style={{ color: "var(--accent)" }}
           >
             Dmytro D.

@@ -75,7 +75,7 @@ export default function About() {
               className="card p-4 text-center"
             >
               <div
-                className="text-2xl font-bold mono"
+                className="text-md sm:text-2xl font-bold mono"
                 style={{ color: "var(--accent)" }}
               >
                 {stat.value}

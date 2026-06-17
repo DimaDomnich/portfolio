@@ -150,7 +150,7 @@ export default function Skills() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <div className="flex items-center gap-1 mb-2">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-0.5 sm:gap-1 mb-2">
             <p
               className="text-xs font-semibold mono"
               style={{ color: "var(--text-muted)" }}
@@ -158,7 +158,8 @@ export default function Skills() {
               Amazon Web Services
             </p>
             <span className="text-xs" style={{ color: "var(--text-muted)" }}>
-              - hover a service to see its dependencies
+              <span className="hidden sm:inline">-</span> hover a service to see
+              its dependencies
             </span>
           </div>
 
