@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, Copy, Check } from "lucide-react";
 import { useState } from "react";
 
-const EMAIL = "d.domnich2017@gmail.com";
+const EMAIL = "dmytro.domnich@gmail.com";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
@@ -22,7 +22,7 @@ export default function Contact() {
       value: EMAIL,
       href: `mailto:${EMAIL}`,
       action: copyEmail,
-      hidden: true,
+      hidden: false,
     },
     {
       icon: Github,

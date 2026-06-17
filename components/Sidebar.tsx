@@ -114,8 +114,8 @@ export default function Sidebar() {
           style={{ backgroundColor: "var(--border)" }}
         />
         <div className="flex justify-center gap-3">
-          {/* <a
-            href="mailto:d.domnich2017@gmail.com"
+          <a
+            href="mailto:dmytro.domnich@gmail.com"
             className="p-2 rounded-lg transition-all duration-200"
             style={{
               color: "var(--text-secondary)",
@@ -133,7 +133,7 @@ export default function Sidebar() {
             title="Email"
           >
             <Mail size={18} />
-          </a> */}
+          </a>
           <a
             href="https://github.com/DimaDomnich"
             target="_blank"
