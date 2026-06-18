@@ -75,7 +75,7 @@ export default function Experience() {
                       </p>
                     </div>
                     <div className="flex items-center gap-2">
-                      {job.current && (
+                      {/* {job.current && (
                         <span
                           className="text-xs px-2 py-0.5 rounded-full font-medium"
                           style={{
@@ -86,7 +86,7 @@ export default function Experience() {
                         >
                           Current
                         </span>
-                      )}
+                      )} */}
                       {/* <span
                         className="text-xs mono"
                         style={{ color: "var(--text-muted)" }}
