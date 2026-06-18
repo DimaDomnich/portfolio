@@ -87,12 +87,12 @@ export default function Experience() {
                           Current
                         </span>
                       )}
-                      <span
+                      {/* <span
                         className="text-xs mono"
                         style={{ color: "var(--text-muted)" }}
                       >
                         {job.period}
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                   <p
